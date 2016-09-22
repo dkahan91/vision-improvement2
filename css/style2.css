@@ -1,3 +1,14 @@
+/* Clearfix hack */
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
 img{
   width:400px;
   margin:20px auto;
@@ -20,6 +31,11 @@ main{
   margin:0 auto;
 }
 
+.circle-wrapper {
+  position: relative;
+  height: 300px;
+}
+
 .small-circle{
   width:150px;
   height: 150px;
@@ -31,13 +47,13 @@ main{
 }
 
 .bottomlayer{
-  position:fixed;
+  position: absolute;
 }
 
 .toplayer{
-  position:absolute;
-  width:400px;
-  margin:40px 0 40px 30px;
+  position: absolute;
+  width: 400px;
+  margin: 40px 0 40px 30px;
 }
 
 .stereo{
