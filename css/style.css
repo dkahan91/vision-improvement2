@@ -1,0 +1,101 @@
+* {
+ box-sizing: border-box;
+}
+
+/* Clearfix hack */
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+
+
+h1{
+  color:pink;
+  text-align: center;
+  margin:0;
+  /*font-size: 20px;*/
+}
+body{
+  /*background-color: turquoise;*/
+  font-family: 'Yatra One',sans-serif;
+  background-image: url("..//Images/sea.jpg");
+  margin: 0;
+  vertical-align: top;
+}
+
+
+
+header{
+  background-color:rgba(89, 92, 104, 0.5);
+  width: 100%;
+    vertical-align: top;
+}
+
+nav li{
+  list-style: none;
+  margin: 10px auto;
+}
+
+li:hover{
+  color: pink;
+}
+
+li, h1, p, h3 {
+  color: white;
+}
+
+li{
+  display: inline-block;
+  width: 120px;
+  font-size: 18px;
+  padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    line-height: 25px;
+}
+
+nav a:hover{
+  background-color: purple;
+}
+
+.exercise-box, .regular-box{
+  font-family: 'Lato',sans-serif;
+  text-align: center;
+  background-color:#3F3A3A;
+  width: 400px;
+  margin:20px auto;
+  padding: 50px;
+}
+
+.button{
+  font-family: 'Lato',sans-serif;
+  text-align: center;
+  background-color:#3F3A3A;
+  width: 170px;
+  margin:10px auto;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.intro-text{
+  text-align: left;
+  /*background-color:#2BABD6;*/
+  font-family: 'Lato',sans-serif;
+  width: 400px;
+  margin:20px auto;
+  padding: 50px;
+  background-color: rgba(186, 180, 180, 0.3);
+}
+
+main{
+  width: 400px;
+  margin: 0 auto;
+}
