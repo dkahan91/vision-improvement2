@@ -69,17 +69,18 @@ nav a:hover{
 .exercise-box, .regular-box{
   font-family: 'Lato',sans-serif;
   text-align: center;
-  background-color:#3F3A3A;
+  background-color:rgba(89, 92, 104, 0.7);
   width: 400px;
   margin:20px auto;
   padding: 50px;
+  border-radius: 3px;
 }
 
 .button{
   font-family: 'Lato',sans-serif;
   text-align: center;
   background-color:#3F3A3A;
-  width: 170px;
+  width: 250px;
   margin:10px auto;
   padding: 10px;
   border-radius: 2px;
@@ -98,4 +99,20 @@ nav a:hover{
 main{
   width: 400px;
   margin: 0 auto;
+}
+
+article{
+  width: 600px;
+  margin: 0 auto;
+}
+
+a{
+  font-size: 22px;
+  font-family: Yatra One;
+  text-decoration: none;
+  color: white;
+}
+
+.firstbutton{
+  margin: 60px auto;
 }

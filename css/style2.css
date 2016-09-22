@@ -1,0 +1,79 @@
+img{
+  width:400px;
+  margin:20px auto;
+  display:block;
+}
+
+.big-circle{
+  position:relative;
+  width:200px;
+  height: 200px;
+  border: solid black 6px;
+  border-radius: 100px;
+  background-color: white;
+  margin: 30px auto;
+  display: inline-block;
+}
+
+main{
+  width:470px;
+  margin:0 auto;
+}
+
+.small-circle{
+  width:150px;
+  height: 150px;
+  border: solid black 6px;
+  border-radius: 75px;
+  background-color: white;
+  margin: 10px;
+  display: inline-block;
+}
+
+.bottomlayer{
+  position:fixed;
+}
+
+.toplayer{
+  position:absolute;
+  width:400px;
+  margin:40px 0 40px 30px;
+}
+
+.stereo{
+  width: 1000px;
+  margin: 20px 50px;
+}
+
+input{
+  margin-bottom: 50px;
+}
+
+article{
+  width:800px;
+  margin: 0 auto;
+}
+
+.button{
+  font-family: 'Lato',sans-serif;
+  text-align: center;
+  background-color:#3F3A3A;
+  width: 250px;
+  margin:10px auto;
+  padding: 10px;
+  border-radius: 2px;
+  color:white;
+  position: relative;
+  display: block;
+}
+
+a{
+  font-size: 18px;
+  font-family: Yatra One;
+  text-decoration: none;
+  color: white;
+}
+
+.firstbutton{
+  margin: 60px auto;
+}
