@@ -38,7 +38,7 @@ header{
 }
 
 nav li{
-  margin: 10px auto;
+  margin: 5px auto;
 }
 
 li:hover{
@@ -51,7 +51,6 @@ li, h1, p, h3 {
 
 li{
   display: inline-block;
-  width: 120px;
   font-size: 18px;
   padding: 15px;
 }
